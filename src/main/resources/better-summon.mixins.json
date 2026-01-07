@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.fmg1925.bettersummon.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"SummonMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
